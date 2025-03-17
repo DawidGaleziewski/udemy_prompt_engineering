@@ -1,0 +1,23 @@
+{
+  "name": "prompt_eng",
+  "version": "1.0.0",
+  "main": "initial_shot.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawidGaleziewski/udemy_prompt_engineering.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DawidGaleziewski/udemy_prompt_engineering/issues"
+  },
+  "homepage": "https://github.com/DawidGaleziewski/udemy_prompt_engineering#readme",
+  "description": "",
+  "dependencies": {
+    "openai": "^4.87.3"
+  }
+}
