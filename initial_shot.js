@@ -1,9 +1,9 @@
 import OpenAI from "openai";
 import * as fs from 'fs';
-const keys = JSON.parse(fs.readFileSync('./keys.json'))
+import {salvadorDaliStyleDoors} from "./prompts/1_lerning.js";
 
 const openai = new OpenAI({
-  apiKey: keys.key_1,
+  apiKey: process.env.CHAT_GPT_API,
 });
 
 const completion = openai.chat.completions.create({
@@ -11,8 +11,8 @@ const completion = openai.chat.completions.create({
   store: true,
   messages: [
     {
-    "role": "user", 
-     "content": "how big is the probablitlity of Russia invading Poland in the next 5 years"
+    "role": "user",
+     "content": salvadorDaliStyleDoors(),
     },
   ],
 });
