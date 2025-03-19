@@ -1,6 +1,5 @@
 import OpenAI from "openai";
-import * as fs from 'fs';
-import {salvadorDaliStyleDoors} from "./prompts/1_lerning.js";
+import {steveJobsStyleDoors} from "./prompts/1_lerning.js";
 
 const openai = new OpenAI({
   apiKey: process.env.CHAT_GPT_API,
@@ -12,7 +11,8 @@ const completion = openai.chat.completions.create({
   messages: [
     {
     "role": "user",
-     "content": salvadorDaliStyleDoors(),
+    "content": "Write a joke, use word Quixotic at least 1 times in it"
+    //  "content": steveJobsStyleDoors(),
     },
   ],
 });

@@ -30,4 +30,14 @@ Please rate the product names based on their catchiness, uniqueness, and simplic
 
 You may also use formats like json here
 
+## Provide examples
+Examples have huge impact on the result.
+For example if we give example of brand names lika 'iPhone', 'iTable' etc it will return all results with 'i'
+Examples will make prompt more realiable but it will reduce the creativity
 
+
+## Evaluate quality
+Identify errors, rate responses, test what drive performance
+
+
+## Divide labour
