@@ -41,3 +41,10 @@ Identify errors, rate responses, test what drive performance
 
 
 ## Divide labour
+
+Chain multiple prompots 
+
+## Seed words
+use seed words you like to influance outpot
+i.e
+seed words: iPhone, iMac
