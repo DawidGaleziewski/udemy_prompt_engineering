@@ -48,3 +48,7 @@ Chain multiple prompots
 use seed words you like to influance outpot
 i.e
 seed words: iPhone, iMac
+
+## test results
+test multiuple times same prompt. If it gives diffrent results it is a good indicator it does not know what it is doing
+
